@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+  <bean id="driverProvider" class="org.jbehave.web.selenium.FirefoxWebDriverProvider">
+  </bean>
+  
+  <bean class="org.jbehave.web.selenium.PerStoryWebDriverSteps">
+    <constructor-arg ref="driverProvider"/>
+  </bean>
+  
+  <bean id="pageFactory" class="com.bensnape.examples.highlight.pages.PageFactory">
+     <constructor-arg ref="driverProvider"/>
+  </bean>  
+  
+  <bean id="steps" class="com.bensnape.examples.highlight.steps.Steps">
+     <constructor-arg ref="pageFactory"/>
+  </bean>  
+
+</beans>
