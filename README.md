@@ -1,5 +1,13 @@
-# Code examples from my Blog - www.bensnape.com
+# Amazon.co.uk WebDriver highlight example
 
-Here you'll find various test automation examples. Usually this will involve my favourite language (Java) and favourite technologies (Selenium WebDriver, JBehave, Maven etc.).
+This very brief example demonstrates how to highlight elements in the browser when performing WebDriver commands.
 
-Feel free to get in touch with me via my blog.
+## Running the example
+
+Please ensure that you have <a href="http://maven.apache.org/">Maven</a> installed.
+
+Do the following in the same directory as the pom.xml file:
+
+	mvn install
+
+You should see Firefox performing the brief test and WebDriver highlighting the elements it is interacting with.
