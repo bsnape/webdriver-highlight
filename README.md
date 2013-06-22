@@ -2,6 +2,8 @@
 
 This very brief example demonstrates how to highlight elements in the browser when performing WebDriver commands.
 
+The accompanying blog post can be found [here](http://bensnape.com/highlighting-elements-in-selenium-webdriver/).
+
 ## Running the example
 
 Please ensure that you have <a href="http://maven.apache.org/">Maven</a> installed.
