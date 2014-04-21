@@ -2,7 +2,7 @@
 
 This very brief example demonstrates how to highlight elements in the browser when performing WebDriver commands.
 
-The accompanying blog post can be found [here](http://bensnape.com/highlighting-elements-in-selenium-webdriver/).
+The accompanying blog post can be found [here](http://bensnape.com/2012/03/31/highlighting-elements-in-selenium-webdriver/).
 
 ## Running the example
 
